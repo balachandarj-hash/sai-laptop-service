@@ -1,6 +1,8 @@
-# Sai Laptop Service
+# SAI Laptop Service
 
-Public website for Sai Laptop Service, a laptop repair shop in Electronic City Phase 2, Bengaluru. The page is a static site (Vite and TypeScript) so GitHub Pages can host it.
+Public website for SAI Laptop Service, a laptop repair shop in Electronic City Phase 2, Bengaluru. It is a static Vite and TypeScript site hosted on GitHub Pages.
+
+Live site: https://balachandarj-hash.github.io/sai-laptop-service/
 
 ## Run locally
 
@@ -9,30 +11,29 @@ npm install
 npm run dev
 ```
 
-Open the URL Vite prints. `npm run build` typechecks and writes the static site to `dist/`. `npm run preview` serves that build.
+`npm run build` typechecks and writes the static site to `dist/`. `npm run preview` serves that build.
 
-## What is on the page
+## Pages
 
-- Services the shop lists: screen, battery, keyboard, fan, hard drive, and regular maintenance
-- Why the counter is easy to find, and the brands named on the shop’s Electronic City page
-- The published street address and phone number
-- Opening hours and email left as “Add your hours” and “Add your email” until the owner fills them in
+- `index.html` — Home
+- `services.html` — Services
+- `about.html` — About Us
+- `why.html` — Why Choose Us
+- `gallery.html` — Gallery
+- `contact.html` — Contact
 
-No prices, reviews, or extra phone numbers are shown.
+Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.
 
-## Details that were confirmed
+## Shop details on the site
 
-Address and phone `+91 99724 47766` match the public shop listing on [o2osell](https://o2osell.com/shops/sai-laptop-service) and the shop’s Electronic City page, [Sai Laptop Service Center in Electronic City](https://sailaptopservice.com/laptop-service-center-in-electronic-city/) (read from the Internet Archive; the live domain did not resolve in the build environment).
-
-Service names and the brand list (Dell, HP, Lenovo, Acer, Apple, Asus, Toshiba) come from that Electronic City page. Hours and a confirmed public email were not on those pages.
+- Phone and WhatsApp: 099724 47766
+- Hours: Monday–Saturday 10:00 AM–8:00 PM, Sunday 10:00 AM–5:00 PM
+- Short location: Electronic City Phase 2, Bengaluru 560100
+- Street address: No. 35/1, No. 26, Ganesh Complex, above the TVS showroom, Hosur Road, opposite Infosys, Electronic City
 
 ## GitHub Pages
 
-The static build is published on the `gh-pages` branch, at the repository root, with a `.nojekyll` file. In the repository’s Pages settings, set the source to **Deploy from a branch**, branch **gh-pages**, folder **/** (root).
-
-Asset paths are relative, so a project site works at `https://<user>.github.io/<repo>/`.
-
-To refresh the branch after a content change:
+The built site is on the `gh-pages` branch at the repository root, with `.nojekyll`. Pages is set to that branch, folder `/`.
 
 ```bash
 npm run build

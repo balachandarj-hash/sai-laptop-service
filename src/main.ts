@@ -1,6 +1,5 @@
 import "./style.css";
 
-const header = document.querySelector<HTMLElement>("[data-header]");
 const toggle = document.querySelector<HTMLButtonElement>("[data-nav-toggle]");
 const nav = document.querySelector<HTMLElement>("[data-nav]");
 
@@ -24,44 +23,31 @@ document.addEventListener("keydown", (event) => {
 });
 
 window.addEventListener("resize", () => {
-  if (window.innerWidth > 860) setNavOpen(false);
+  if (window.innerWidth > 1100) setNavOpen(false);
 });
 
-function onScroll(): void {
-  header?.classList.toggle("is-scrolled", window.scrollY > 8);
-}
+const form = document.querySelector<HTMLFormElement>("[data-whatsapp-form]");
+const formStatus = document.querySelector<HTMLElement>("[data-form-status]");
 
-onScroll();
-window.addEventListener("scroll", onScroll, { passive: true });
+form?.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const data = new FormData(form);
+  const name = String(data.get("name") ?? "").trim();
+  const phone = String(data.get("phone") ?? "").trim();
+  const issue = String(data.get("issue") ?? "").trim();
 
-const copyButton = document.querySelector<HTMLButtonElement>("[data-copy-address]");
-const address = document.querySelector<HTMLElement>("[data-address]");
-const copyStatus = document.querySelector<HTMLElement>("[data-copy-status]");
-let copyTimer = 0;
-
-function showCopyStatus(message: string, isError: boolean): void {
-  if (!copyStatus) return;
-  copyStatus.textContent = message;
-  copyStatus.classList.toggle("is-error", isError);
-  window.clearTimeout(copyTimer);
-  copyTimer = window.setTimeout(() => {
-    copyStatus.textContent = "";
-    copyStatus.classList.remove("is-error");
-  }, 2800);
-}
-
-copyButton?.addEventListener("click", async () => {
-  const text = address?.dataset.address?.trim();
-  if (!text) {
-    showCopyStatus("Address is missing from this page.", true);
+  if (!name || !phone || !issue) {
+    if (formStatus) {
+      formStatus.textContent = "Add your name, phone, and the problem.";
+      formStatus.classList.add("is-error");
+    }
     return;
   }
+  formStatus?.classList.remove("is-error");
 
-  try {
-    if (!navigator.clipboard) throw new Error("Clipboard API unavailable");
-    await navigator.clipboard.writeText(text);
-    showCopyStatus("Address copied.", false);
-  } catch {
-    showCopyStatus("Could not copy. Select the address instead.", true);
-  }
+  const text = `Hello Sai Laptop Service. My name is ${name}. Phone: ${phone}. I need help with: ${issue}.`;
+  const url = `https://wa.me/919972447766?text=${encodeURIComponent(text)}`;
+  const opened = window.open(url, "_blank", "noopener,noreferrer");
+  if (!opened) window.location.href = url;
+  if (formStatus) formStatus.textContent = "Opening WhatsApp with your message.";
 });
