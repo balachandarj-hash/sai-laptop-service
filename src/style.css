@@ -10,7 +10,7 @@
   --card: #ffffff;
   --line: #e3ebf3;
   --shadow: 0 16px 40px rgba(12, 35, 68, 0.08);
-  --header: 4.6rem;
+  --header: 5.4rem;
   --font: "Poppins", "Segoe UI", sans-serif;
   color-scheme: light;
 }
@@ -93,32 +93,20 @@ a {
   margin-right: auto;
 }
 
-.logo-mark {
-  width: 2.4rem;
-  height: 2.4rem;
-  flex: none;
+.logo-img {
+  height: 4.35rem;
+  width: auto;
+  background: #fff;
+  border-radius: 0.55rem;
+  display: block;
 }
 
-.logo-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.05;
-}
-
-.logo-name {
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  font-size: 1.05rem;
-}
-
-.logo-name span {
-  color: var(--yellow);
-}
-
-.logo-place {
-  font-size: 0.72rem;
-  color: rgba(255, 255, 255, 0.78);
-  font-weight: 500;
+.footer-logo {
+  height: 3.6rem;
+  width: auto;
+  background: #fff;
+  border-radius: 0.45rem;
+  margin-bottom: 0.55rem;
 }
 
 .nav {
@@ -681,8 +669,8 @@ h1 {
     grid-template-columns: 1fr;
   }
 
-  .logo-place {
-    display: none;
+  .logo-img {
+    height: 3.15rem;
   }
 
   h1 {
