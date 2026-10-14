@@ -583,6 +583,11 @@ h1 {
   color: rgba(255, 255, 255, 0.82);
 }
 
+.footer-address {
+  max-width: 34rem;
+  line-height: 1.45;
+}
+
 .hours {
   margin: 0;
 }

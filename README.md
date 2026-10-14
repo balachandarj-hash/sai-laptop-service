@@ -28,8 +28,7 @@ Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`)
 
 - Phone and WhatsApp: 099724 47766
 - Hours: Monday–Saturday 10:00 AM–8:00 PM, Sunday 10:00 AM–5:00 PM
-- Short location: Electronic City Phase 2, Bengaluru 560100
-- Street address: No. 35/1, No. 26, Ganesh Complex, above the TVS showroom, Hosur Road, opposite Infosys, Electronic City
+- Address: NO 35/1, NO 26, Ganesh Complex, Above TVS Showroom Main Road, Hosur Rd, opp. to Infosys Limited, Electronic City, Bengaluru, Karnataka 560100
 
 ## GitHub Pages
 
