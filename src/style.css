@@ -512,6 +512,17 @@ h1 {
   align-items: start;
 }
 
+.address-phone {
+  margin: 0 0 0.55rem;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.address-phone a {
+  color: var(--navy);
+  text-decoration: none;
+}
+
 .address {
   font-style: normal;
   font-weight: 600;
@@ -583,11 +594,28 @@ h1 {
   color: rgba(255, 255, 255, 0.82);
 }
 
+.footer-place {
+  text-align: center;
+}
+
 .footer-address {
-  margin: 0 auto;
+  margin: 0.35rem auto 0;
   max-width: 36rem;
   line-height: 1.45;
   text-align: center;
+}
+
+.footer-phone {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer-phone:hover {
+  color: var(--yellow);
 }
 
 .footer-actions {
