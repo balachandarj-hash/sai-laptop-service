@@ -8,6 +8,7 @@ export default defineConfig(({ command }) => ({
   // Relative asset paths so GitHub project pages work at /<repo>/.
   base: command === "build" ? "./" : "/",
   build: {
+    cssMinify: false,
     rollupOptions: {
       input: {
         main: resolve(root, "index.html"),
