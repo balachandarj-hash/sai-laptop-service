@@ -469,6 +469,65 @@ h1 {
   font-weight: 600;
 }
 
+.board-parts {
+  background: var(--navy);
+  color: white;
+  padding: 2.4rem 0 2.5rem;
+}
+
+.board-parts h2 {
+  color: white;
+  font-family: var(--font);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.board-parts p {
+  margin: 0.65rem auto 0;
+  max-width: 38rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.parts-row {
+  list-style: none;
+  margin: 1.45rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.85rem;
+}
+
+.parts-row li {
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.part-icon {
+  display: grid;
+  place-items: center;
+  width: min(100%, 6.6rem);
+  aspect-ratio: 1.05;
+  margin: 0 auto 0.65rem;
+  background: white;
+  color: #12324a;
+  border-radius: 0.75rem;
+}
+
+.part-icon svg {
+  width: 68%;
+  height: 68%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .expertise {
   background: #fff;
   padding: 3.2rem 0 2.6rem;
@@ -865,6 +924,11 @@ h1 {
   .expertise-grid,
   .expertise-grid.six {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .parts-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.1rem 0.7rem;
   }
 
   .expertise-card:nth-child(4n + 1) {
