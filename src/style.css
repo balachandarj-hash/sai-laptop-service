@@ -767,7 +767,7 @@ h1 {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr 1.35fr 0.8fr;
+  grid-template-columns: 1.05fr 0.8fr 1.25fr 1.2fr;
   gap: 2rem 1.5rem;
   align-items: start;
   padding-bottom: 1.8rem;
@@ -805,6 +805,20 @@ h1 {
 .footer-links a[aria-current="page"],
 .footer-phone:hover {
   color: var(--yellow);
+}
+
+.footer-social a {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.footer-social svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  margin-top: 0.18rem;
+  flex: none;
+  fill: currentColor;
 }
 
 .footer-phone {
