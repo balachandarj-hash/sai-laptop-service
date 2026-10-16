@@ -51,3 +51,42 @@ form?.addEventListener("submit", (event) => {
   if (!opened) window.location.href = url;
   if (formStatus) formStatus.textContent = "Opening WhatsApp with your message.";
 });
+
+const blogGrid = document.querySelector<HTMLElement>("[data-blog-grid]");
+const blogSearch = document.querySelector<HTMLInputElement>("[data-blog-search]");
+const blogEmpty = document.querySelector<HTMLElement>("[data-blog-empty]");
+const blogChips = [...document.querySelectorAll<HTMLButtonElement>("[data-blog-filter]")];
+
+if (blogGrid) {
+  const cards = [...blogGrid.querySelectorAll<HTMLElement>("[data-blog-card]")];
+  let topic = "all";
+
+  const applyBlogFilter = (): void => {
+    const query = (blogSearch?.value ?? "").trim().toLowerCase();
+    let shown = 0;
+    for (const card of cards) {
+      const topics = (card.dataset.topics ?? "").split(/\s+/);
+      const haystack = (card.dataset.text ?? "").toLowerCase();
+      const topicMatch = topic === "all" || topics.includes(topic);
+      const textMatch = query.length === 0 || haystack.includes(query);
+      const visible = topicMatch && textMatch;
+      card.hidden = !visible;
+      if (visible) shown += 1;
+    }
+    if (blogEmpty) blogEmpty.hidden = shown !== 0;
+  };
+
+  for (const chip of blogChips) {
+    chip.addEventListener("click", () => {
+      topic = chip.dataset.blogFilter ?? "all";
+      for (const item of blogChips) {
+        const selected = item === chip;
+        item.classList.toggle("is-on", selected);
+        item.setAttribute("aria-pressed", String(selected));
+      }
+      applyBlogFilter();
+    });
+  }
+
+  blogSearch?.addEventListener("input", applyBlogFilter);
+}
