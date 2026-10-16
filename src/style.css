@@ -654,6 +654,10 @@ h1 {
   font-size: clamp(2rem, 4vw, 3rem);
 }
 
+.page-hero h1.blog-title {
+  max-width: 18em;
+}
+
 .page-hero .kicker {
   color: var(--yellow);
 }
