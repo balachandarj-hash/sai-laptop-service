@@ -16,6 +16,7 @@ export default defineConfig(({ command }) => ({
         about: resolve(root, "about.html"),
         why: resolve(root, "why.html"),
         gallery: resolve(root, "gallery.html"),
+        blog: resolve(root, "blog.html"),
         contact: resolve(root, "contact.html"),
       },
     },

@@ -20,6 +20,7 @@ npm run dev
 - `about.html` — About Us
 - `why.html` — Why Choose Us
 - `gallery.html` — Gallery
+- `blog.html` — Blog
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.

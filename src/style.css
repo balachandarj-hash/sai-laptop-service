@@ -676,6 +676,13 @@ h1 {
   font-size: 1.45rem;
 }
 
+.prose a {
+  color: var(--green-2);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 .reason-grid {
   grid-template-columns: 1fr 1fr;
 }
