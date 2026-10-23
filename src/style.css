@@ -492,40 +492,72 @@ h1 {
   color: rgba(255, 255, 255, 0.86);
 }
 
-.parts-row {
-  list-style: none;
-  margin: 1.45rem 0 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 0.85rem;
+.parts-slider {
+  margin-top: 1.45rem;
+  overflow: hidden;
+  min-height: 9.4rem;
+  touch-action: pan-y;
 }
 
-.parts-row li {
+.parts-track {
+  display: flex;
+  width: max-content;
+  animation: parts-run 28s linear infinite;
+}
+
+.parts-slider:hover .parts-track,
+.parts-slider:focus-within .parts-track,
+.parts-slider.is-paused .parts-track {
+  animation-play-state: paused;
+}
+
+.parts-set {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0 1rem 0 0;
+  list-style: none;
+}
+
+.parts-set li {
+  flex: 0 0 8.4rem;
+  width: 8.4rem;
   text-align: center;
   font-weight: 600;
   font-size: 0.95rem;
 }
 
-.part-icon {
-  display: grid;
-  place-items: center;
-  width: min(100%, 6.6rem);
-  aspect-ratio: 1.05;
+.part-photo {
+  display: block;
+  width: 6.6rem;
+  height: 6.3rem;
   margin: 0 auto 0.65rem;
-  background: white;
-  color: #12324a;
+  object-fit: cover;
+  background: #fff;
   border-radius: 0.75rem;
 }
 
-.part-icon svg {
-  width: 68%;
-  height: 68%;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2.2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+@keyframes parts-run {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .parts-track {
+    animation: none;
+  }
+
+  .parts-slider {
+    overflow-x: auto;
+  }
+
+  .parts-set[aria-hidden="true"] {
+    display: none;
+  }
 }
 
 .expertise {
@@ -1119,11 +1151,6 @@ h1 {
   .expertise-grid,
   .expertise-grid.six {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .parts-row {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.1rem 0.7rem;
   }
 
   .expertise-card:nth-child(4n + 1) {
