@@ -91,15 +91,6 @@ if (blogGrid) {
   blogSearch?.addEventListener("input", applyBlogFilter);
 }
 
-document.querySelectorAll<HTMLElement>("[data-parts-slider]").forEach((slider) => {
-  const pause = () => slider.classList.add("is-paused");
-  const resume = () => slider.classList.remove("is-paused");
-  slider.addEventListener("pointerdown", pause);
-  slider.addEventListener("pointerup", resume);
-  slider.addEventListener("pointercancel", resume);
-  slider.addEventListener("pointerleave", resume);
-});
-
 const loadReviews = document.querySelector<HTMLButtonElement>("[data-load-reviews]");
 loadReviews?.addEventListener("click", () => {
   document.querySelectorAll<HTMLElement>("[data-review-more]").forEach((row) => {
