@@ -90,3 +90,11 @@ if (blogGrid) {
 
   blogSearch?.addEventListener("input", applyBlogFilter);
 }
+
+const loadReviews = document.querySelector<HTMLButtonElement>("[data-load-reviews]");
+loadReviews?.addEventListener("click", () => {
+  document.querySelectorAll<HTMLElement>("[data-review-more]").forEach((row) => {
+    row.hidden = false;
+  });
+  loadReviews.hidden = true;
+});

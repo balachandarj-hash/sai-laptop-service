@@ -895,9 +895,9 @@ h1 {
 }
 
 .reviews {
-  background: #071422;
-  color: white;
-  padding: 3rem 0 2.7rem;
+  background: #fff;
+  color: #222;
+  padding: 2.6rem 0 2.8rem;
 }
 
 .reviews h2 {
@@ -905,8 +905,8 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   gap: 0.65rem 0.8rem;
-  margin: 0 0 1.45rem;
-  color: rgba(255, 255, 255, 0.82);
+  margin: 0 0 0.7rem;
+  color: #24323c;
   font-family: var(--font);
   font-size: 1rem;
   font-weight: 500;
@@ -915,7 +915,7 @@ h1 {
 }
 
 .rating-num {
-  color: #f5c451;
+  color: #24323c;
   font-size: 1.85rem;
   font-weight: 700;
   letter-spacing: -0.03em;
@@ -931,7 +931,7 @@ h1 {
 }
 
 .rating-stars-base {
-  color: rgba(255, 255, 255, 0.28);
+  color: #d9d9d9;
 }
 
 .rating-stars-fill {
@@ -944,69 +944,97 @@ h1 {
   white-space: nowrap;
 }
 
-.reviews-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+.reviews-all {
+  margin: 0 0 0.4rem;
 }
 
-.review-card {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  padding: 1.25rem 1.2rem 1.15rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 0.35rem;
-  background: rgba(255, 255, 255, 0.03);
+.reviews-all a {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.review-list {
+  max-width: 46rem;
+}
+
+.review-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 1.15rem 0;
+}
+
+.review-row + .review-row {
+  border-top: 1px solid #e4e4e4;
+}
+
+.review-row[hidden] {
+  display: none;
+}
+
+.review-avatar {
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  background: #e8e8e8;
+  color: #9a9a9a;
+  display: grid;
+  place-items: center;
+}
+
+.review-avatar svg {
+  width: 1.7rem;
+  height: 1.7rem;
+  fill: currentColor;
 }
 
 .review-stars {
-  margin: 0 0 0.85rem;
+  margin: 0.15rem 0 0;
   color: #f5c451;
-  letter-spacing: 0.16em;
-  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  font-size: 1.05rem;
   line-height: 1;
 }
 
-.review-card blockquote {
+.review-row blockquote {
+  margin: 0.45rem 0 0.35rem;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.review-name {
   margin: 0;
-  color: white;
-  font-size: 1.02rem;
-  font-weight: 400;
-  line-height: 1.55;
-}
-
-.review-meta {
-  margin: auto 0 0;
-  padding-top: 1.35rem;
-}
-
-.review-meta strong {
-  display: block;
+  color: #222;
   font-size: 0.98rem;
-  letter-spacing: 0.01em;
 }
 
-.review-meta span {
-  display: block;
-  margin-top: 0.18rem;
-  color: rgba(255, 255, 255, 0.62);
-  font-size: 0.9rem;
+.review-name span {
+  margin-left: 0.35rem;
+  color: #6b6b6b;
   font-weight: 400;
 }
 
-.reviews-more {
-  margin: 1.45rem 0 0;
+.reviews-load {
+  margin: 0.4rem 0 0;
 }
 
-.btn-light {
-  background: white;
-  color: #102033;
-  border-radius: 0.4rem;
+.btn-load {
+  background: var(--blue);
+  color: white;
+  border: 0;
+  border-radius: 0.35rem;
+  min-height: 2.75rem;
+  padding: 0.55rem 1.35rem;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-.btn-light:hover {
-  background: #e7eef3;
+.btn-load:hover {
+  background: var(--navy-2);
 }
 
 .whatsapp-fab {
@@ -1086,10 +1114,6 @@ h1 {
     gap: 1.1rem 0.7rem;
   }
 
-  .reviews-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .expertise-card:nth-child(4n + 1) {
     border-left: 1px solid #e4eef4;
   }
@@ -1156,10 +1180,6 @@ h1 {
 
   .trust-grid {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .reviews-grid {
-    grid-template-columns: 1fr;
   }
 
   .hero-services {
