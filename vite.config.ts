@@ -19,6 +19,7 @@ export default defineConfig(({ command }) => ({
         blog: resolve(root, "blog.html"),
         blogScreen: resolve(root, "blog-screen-keyboard-battery.html"),
         blogWhy: resolve(root, "blog-why-choose.html"),
+        blogSsd: resolve(root, "blog-ssd-hard-disk.html"),
         contact: resolve(root, "contact.html"),
       },
     },

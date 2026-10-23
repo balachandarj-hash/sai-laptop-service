@@ -21,6 +21,7 @@ npm run dev
 - `why.html` — Why Choose Us
 - `gallery.html` — Gallery
 - `blog.html` — Blog index
+- `blog-ssd-hard-disk.html` — SSD and hard disk upgrade for a slow laptop
 - `blog-why-choose.html` — Why choose Sai Laptop Service?
 - `blog-screen-keyboard-battery.html` — Screen, keyboard, and battery replacement
 - `contact.html` — Contact
