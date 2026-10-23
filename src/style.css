@@ -689,15 +689,17 @@ h1 {
 }
 
 .prose a.btn-black {
-  background: #000;
-  color: #fff;
-  font-weight: 700;
+  background: #fff;
+  color: #1a1a1a;
+  font-weight: 600;
   text-decoration: none;
+  border: 1px solid #1a1a1a;
+  border-radius: 0.4rem;
 }
 
 .prose a.btn-black:hover {
-  background: #1a1a1a;
-  color: #fff;
+  background: #f6f6f6;
+  color: #1a1a1a;
 }
 
 .reason-grid {
