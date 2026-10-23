@@ -1081,6 +1081,30 @@ h1 {
   background: var(--navy-2);
 }
 
+.call-tab {
+  position: fixed;
+  z-index: 28;
+  right: 0;
+  top: 50%;
+  transform: translateY(-62%);
+  writing-mode: vertical-rl;
+  background: linear-gradient(180deg, #111111 0%, #163044 46%, #0e78b8 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 1.15rem 0.7rem;
+  border-radius: 0.7rem 0 0 0.7rem;
+  box-shadow: -6px 8px 22px rgba(0, 0, 0, 0.28);
+}
+
+.call-tab:hover {
+  background: linear-gradient(180deg, #1a1a1a 0%, #0a4a72 48%, #0e78b8 100%);
+  color: #fff;
+}
+
 .whatsapp-fab {
   position: fixed;
   right: 1.1rem;
@@ -1100,6 +1124,13 @@ h1 {
   width: 1.7rem;
   height: 1.7rem;
   fill: white;
+}
+
+@media (max-height: 720px) {
+  .call-tab {
+    top: 5.6rem;
+    transform: none;
+  }
 }
 
 :focus-visible {
