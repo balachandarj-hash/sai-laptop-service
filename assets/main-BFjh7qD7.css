@@ -643,13 +643,14 @@ h1 {
 }
 
 .page-hero {
-  background: var(--navy);
-  color: white;
+  background: #ffffff;
+  color: #10283a;
   padding: 2.2rem 0 2rem;
+  border-bottom: 1px solid var(--line);
 }
 
 .page-hero h1 {
-  color: white;
+  color: #10283a;
   max-width: 18ch;
   font-size: clamp(2rem, 4vw, 3rem);
 }
@@ -659,7 +660,7 @@ h1 {
 }
 
 .page-hero .kicker {
-  color: var(--yellow);
+  color: var(--green-2);
 }
 
 .kicker {
