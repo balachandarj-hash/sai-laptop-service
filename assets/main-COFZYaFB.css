@@ -895,7 +895,7 @@ h1 {
 }
 
 .reviews {
-  background: #fff;
+  background: var(--paper);
   color: #222;
   padding: 2.6rem 0 2.8rem;
 }
@@ -953,8 +953,20 @@ h1 {
   font-weight: 600;
 }
 
-.review-list {
+.review-panel {
   max-width: 46rem;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.7rem;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.9),
+    0 0 26px rgba(70, 100, 130, 0.16),
+    0 12px 32px rgba(16, 40, 58, 0.1);
+  padding: 0.35rem 1.25rem 1.15rem;
+}
+
+.review-list {
+  max-width: none;
 }
 
 .review-row {
