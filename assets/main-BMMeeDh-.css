@@ -841,6 +841,75 @@ h1 {
   color: #9a3412;
 }
 
+.faq {
+  background: var(--paper);
+  color: #10283a;
+  padding: 2.2rem 0 0.4rem;
+}
+
+.faq h2 {
+  margin: 0 0 1.1rem;
+  text-align: center;
+  color: #10283a;
+  font-family: var(--font);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.faq-list {
+  max-width: 46rem;
+  margin: 0 auto;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.faq-item {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  padding: 0 1rem;
+}
+
+.faq-item summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  cursor: pointer;
+  font-weight: 600;
+  color: #10283a;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  color: var(--blue);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.faq-item[open] summary::after {
+  content: "–";
+}
+
+.faq-item p {
+  margin: 0 0 1rem;
+  color: #3d5568;
+}
+
+.faq-item a {
+  color: var(--blue);
+  font-weight: 600;
+}
+
 .site-footer {
   background: linear-gradient(to left, #111111 0%, #163044 46%, #0e78b8 100%);
   color: rgba(255, 255, 255, 0.82);
