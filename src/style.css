@@ -1104,7 +1104,7 @@ h1 {
   z-index: 28;
   right: 0;
   top: 50%;
-  transform: translateY(-62%);
+  transform: translateY(-50%);
   writing-mode: vertical-rl;
   background: linear-gradient(180deg, #111111 0%, #163044 46%, #0e78b8 100%);
   color: #fff;
@@ -1142,13 +1142,6 @@ h1 {
   width: 1.7rem;
   height: 1.7rem;
   fill: white;
-}
-
-@media (max-height: 720px) {
-  .call-tab {
-    top: 5.6rem;
-    transform: none;
-  }
 }
 
 :focus-visible {
