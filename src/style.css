@@ -901,6 +901,43 @@ h1 {
   font-weight: 600;
 }
 
+.popular-searches {
+  background: #eef3f6;
+  color: #24323c;
+  padding: 2.4rem 0 2.1rem;
+  text-align: center;
+}
+
+.popular-searches h2 {
+  margin: 0 0 1.05rem;
+  font-family: var(--font);
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: #10283a;
+}
+
+.popular-searches p {
+  margin: 0 auto;
+  max-width: 68rem;
+  line-height: 2;
+  color: #4a5b6a;
+  font-size: 0.98rem;
+}
+
+.popular-searches a {
+  color: #3d4e5c;
+  text-decoration: none;
+}
+
+.popular-searches a:hover,
+.popular-searches a[aria-current="page"] {
+  color: var(--blue);
+}
+
+.popular-searches + .site-footer {
+  margin-top: 0;
+}
+
 .site-footer {
   background: linear-gradient(to left, #111111 0%, #163044 46%, #0e78b8 100%);
   color: rgba(255, 255, 255, 0.82);
