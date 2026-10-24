@@ -26,6 +26,7 @@ npm run dev
 - `blog-why-choose.html` — Why choose Sai Laptop Service?
 - `blog-screen-keyboard-battery.html` — Screen, keyboard, and battery replacement
 - `computer-repair.html` — Computer repair
+- `computer-technician-near-me.html` — Computer technician near me in Electronic City
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.

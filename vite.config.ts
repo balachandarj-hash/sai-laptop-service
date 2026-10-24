@@ -23,6 +23,7 @@ export default defineConfig(({ command }) => ({
         blogCommon: resolve(root, "blog-common-problems.html"),
         contact: resolve(root, "contact.html"),
         computerRepair: resolve(root, "computer-repair.html"),
+        computerTechnician: resolve(root, "computer-technician-near-me.html"),
       },
     },
   },
