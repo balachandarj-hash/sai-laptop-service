@@ -27,6 +27,18 @@ npm run dev
 - `blog-screen-keyboard-battery.html` — Screen, keyboard, and battery replacement
 - `computer-repair.html` — Computer repair
 - `computer-technician-near-me.html` — Computer technician near me in Electronic City
+- `computer-tech-near-me.html` — Computer tech near me
+- `computer-service-near-me.html` — Computer service near me
+- `pc-technician-near-me.html` — PC technician near me
+- `laptop-for-repair.html` — Laptop for repair
+- `laptop-computer-repair-near-me.html` — Laptop computer repair near me
+- `laptop-computer-repair.html` — Laptop computer repair
+- `computer-mechanic-near-me.html` — Computer mechanic near me
+- `cpu-repair.html` — CPU repair
+- `service-laptop-near-me.html` — Service laptop near me
+- `laptop-and-computer-repair-near-me.html` — Laptop and computer repair near me
+- `laptop-pc-repair-near-me.html` — Laptop PC repair near me
+- `laptop-and-computer-repair.html` — Laptop and computer repair
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.
