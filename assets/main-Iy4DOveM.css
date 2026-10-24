@@ -736,6 +736,10 @@ h1 {
   text-underline-offset: 0.15em;
 }
 
+.prose p:has(> a.btn-black:only-child) {
+  text-align: center;
+}
+
 .prose a.btn-black {
   background: #fff;
   color: #1a1a1a;
