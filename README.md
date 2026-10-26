@@ -40,6 +40,21 @@ npm run dev
 - `laptop-and-computer-repair-near-me.html` — Laptop and computer repair near me
 - `laptop-pc-repair-near-me.html` — Laptop PC repair near me
 - `laptop-and-computer-repair.html` — Laptop and computer repair
+- `computer-repair-electronic-city-phase-1.html` — Computer repair in Electronic City Phase 1
+- `computer-repair-electronic-city-phase-2.html` — Computer repair in Electronic City Phase 2
+- `computer-repair-konappana-agrahara.html` — Computer repair in Konappana Agrahara
+- `computer-repair-doddathoguru.html` — Computer repair in Doddathoguru
+- `computer-repair-neeladri-nagar.html` — Computer repair in Neeladri Nagar
+- `computer-repair-basapura.html` — Computer repair in Basapura
+- `computer-repair-naganathapura.html` — Computer repair in Naganathapura
+- `computer-repair-parappana-agrahara.html` — Computer repair in Parappana Agrahara
+- `computer-repair-veerasandra.html` — Computer repair in Veerasandra
+- `computer-repair-doddanagamangala.html` — Computer repair in Doddanagamangala
+- `computer-repair-chikkathoguru.html` — Computer repair in Chikkathoguru
+- `computer-repair-beratena-agrahara.html` — Computer repair in Beratena Agrahara
+- `computer-repair-kammasandra-agrahara.html` — Computer repair in Kammasandra Agrahara
+- `computer-repair-andapura.html` — Computer repair in Andapura
+- `computer-repair-wipro-limited-area.html` — Computer repair in Wipro Limited area
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.
