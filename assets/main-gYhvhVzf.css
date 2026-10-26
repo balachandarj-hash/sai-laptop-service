@@ -1515,16 +1515,12 @@ h1 {
   color: var(--green-2);
 }
 
-.blog-index > .wrap,
 .page-hero:has(h1.blog-title) > .wrap,
 main.page:has(> .blog-back) {
   width: min(44rem, calc(100% - 2.5rem));
   margin-inline: auto;
 }
 
-.blog-index,
-.blog-index h1,
-.blog-index .blog-card,
 main.page:has(> .blog-back),
 main.page:has(> .blog-back) .prose,
 main.page:has(> .blog-back) .prose h2,
@@ -1536,16 +1532,10 @@ main.page:has(> .blog-back) .prose {
   max-width: none;
 }
 
-.blog-index .blog-grid {
-  grid-template-columns: 1fr;
-}
-
-.blog-index .blog-card img,
 main.page:has(> .blog-back) .prose img {
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  display: block;
 }
 
 body:has(main.page > .blog-back) {
