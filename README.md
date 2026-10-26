@@ -55,6 +55,21 @@ npm run dev
 - `computer-repair-kammasandra-agrahara.html` — Computer repair in Kammasandra Agrahara
 - `computer-repair-andapura.html` — Computer repair in Andapura
 - `computer-repair-wipro-limited-area.html` — Computer repair in Wipro Limited area
+- `computer-technician-near-me-electronic-city-phase-1.html` — Computer technician near me in Electronic City Phase 1
+- `computer-technician-near-me-electronic-city-phase-2.html` — Computer technician near me in Electronic City Phase 2
+- `computer-technician-near-me-konappana-agrahara.html` — Computer technician near me in Konappana Agrahara
+- `computer-technician-near-me-doddathoguru.html` — Computer technician near me in Doddathoguru
+- `computer-technician-near-me-neeladri-nagar.html` — Computer technician near me in Neeladri Nagar
+- `computer-technician-near-me-basapura.html` — Computer technician near me in Basapura
+- `computer-technician-near-me-naganathapura.html` — Computer technician near me in Naganathapura
+- `computer-technician-near-me-parappana-agrahara.html` — Computer technician near me in Parappana Agrahara
+- `computer-technician-near-me-veerasandra.html` — Computer technician near me in Veerasandra
+- `computer-technician-near-me-doddanagamangala.html` — Computer technician near me in Doddanagamangala
+- `computer-technician-near-me-chikkathoguru.html` — Computer technician near me in Chikkathoguru
+- `computer-technician-near-me-beratena-agrahara.html` — Computer technician near me in Beratena Agrahara
+- `computer-technician-near-me-kammasandra-agrahara.html` — Computer technician near me in Kammasandra Agrahara
+- `computer-technician-near-me-andapura.html` — Computer technician near me in Andapura
+- `computer-technician-near-me-wipro-limited-area.html` — Computer technician near me in Wipro Limited area
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.
