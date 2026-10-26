@@ -85,6 +85,21 @@ npm run dev
 - `computer-tech-near-me-kammasandra-agrahara.html` — Computer tech near me in Kammasandra Agrahara
 - `computer-tech-near-me-andapura.html` — Computer tech near me in Andapura
 - `computer-tech-near-me-wipro-limited-area.html` — Computer tech near me in Wipro Limited area
+- `computer-service-near-me-electronic-city-phase-1.html` — Computer service near me in Electronic City Phase 1
+- `computer-service-near-me-electronic-city-phase-2.html` — Computer service near me in Electronic City Phase 2
+- `computer-service-near-me-konappana-agrahara.html` — Computer service near me in Konappana Agrahara
+- `computer-service-near-me-doddathoguru.html` — Computer service near me in Doddathoguru
+- `computer-service-near-me-neeladri-nagar.html` — Computer service near me in Neeladri Nagar
+- `computer-service-near-me-basapura.html` — Computer service near me in Basapura
+- `computer-service-near-me-naganathapura.html` — Computer service near me in Naganathapura
+- `computer-service-near-me-parappana-agrahara.html` — Computer service near me in Parappana Agrahara
+- `computer-service-near-me-veerasandra.html` — Computer service near me in Veerasandra
+- `computer-service-near-me-doddanagamangala.html` — Computer service near me in Doddanagamangala
+- `computer-service-near-me-chikkathoguru.html` — Computer service near me in Chikkathoguru
+- `computer-service-near-me-beratena-agrahara.html` — Computer service near me in Beratena Agrahara
+- `computer-service-near-me-kammasandra-agrahara.html` — Computer service near me in Kammasandra Agrahara
+- `computer-service-near-me-andapura.html` — Computer service near me in Andapura
+- `computer-service-near-me-wipro-limited-area.html` — Computer service near me in Wipro Limited area
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.
