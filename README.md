@@ -21,6 +21,7 @@ npm run dev
 - `why.html` — Why Choose Us
 - `gallery.html` — Gallery
 - `blog.html` — Blog index
+- `blog-repair-vs-replacement.html` — Laptop Repair vs Replacement: Which Is the Best Choice for You?
 - `blog-common-problems.html` — Laptop Repair Services: Common Problems and Their Solutions
 - `blog-ssd-hard-disk.html` — SSD and hard disk upgrade for a slow laptop
 - `blog-why-choose.html` — Why choose Sai Laptop Service?
