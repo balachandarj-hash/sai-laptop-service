@@ -130,6 +130,21 @@ npm run dev
 - `laptop-for-repair-kammasandra-agrahara.html` — Laptop for repair in Kammasandra Agrahara
 - `laptop-for-repair-andapura.html` — Laptop for repair in Andapura
 - `laptop-for-repair-wipro-limited-area.html` — Laptop for repair in Wipro Limited area
+- `laptop-computer-repair-near-me-electronic-city-phase-1.html` — Laptop computer repair near me in Electronic City Phase 1
+- `laptop-computer-repair-near-me-electronic-city-phase-2.html` — Laptop computer repair near me in Electronic City Phase 2
+- `laptop-computer-repair-near-me-konappana-agrahara.html` — Laptop computer repair near me in Konappana Agrahara
+- `laptop-computer-repair-near-me-doddathoguru.html` — Laptop computer repair near me in Doddathoguru
+- `laptop-computer-repair-near-me-neeladri-nagar.html` — Laptop computer repair near me in Neeladri Nagar
+- `laptop-computer-repair-near-me-basapura.html` — Laptop computer repair near me in Basapura
+- `laptop-computer-repair-near-me-naganathapura.html` — Laptop computer repair near me in Naganathapura
+- `laptop-computer-repair-near-me-parappana-agrahara.html` — Laptop computer repair near me in Parappana Agrahara
+- `laptop-computer-repair-near-me-veerasandra.html` — Laptop computer repair near me in Veerasandra
+- `laptop-computer-repair-near-me-doddanagamangala.html` — Laptop computer repair near me in Doddanagamangala
+- `laptop-computer-repair-near-me-chikkathoguru.html` — Laptop computer repair near me in Chikkathoguru
+- `laptop-computer-repair-near-me-beratena-agrahara.html` — Laptop computer repair near me in Beratena Agrahara
+- `laptop-computer-repair-near-me-kammasandra-agrahara.html` — Laptop computer repair near me in Kammasandra Agrahara
+- `laptop-computer-repair-near-me-andapura.html` — Laptop computer repair near me in Andapura
+- `laptop-computer-repair-near-me-wipro-limited-area.html` — Laptop computer repair near me in Wipro Limited area
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.
