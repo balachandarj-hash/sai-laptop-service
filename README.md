@@ -160,6 +160,21 @@ npm run dev
 - `laptop-computer-repair-kammasandra-agrahara.html` — Laptop computer repair in Kammasandra Agrahara
 - `laptop-computer-repair-andapura.html` — Laptop computer repair in Andapura
 - `laptop-computer-repair-wipro-limited-area.html` — Laptop computer repair in Wipro Limited area
+- `computer-mechanic-near-me-electronic-city-phase-1.html` — Computer mechanic near me in Electronic City Phase 1
+- `computer-mechanic-near-me-electronic-city-phase-2.html` — Computer mechanic near me in Electronic City Phase 2
+- `computer-mechanic-near-me-konappana-agrahara.html` — Computer mechanic near me in Konappana Agrahara
+- `computer-mechanic-near-me-doddathoguru.html` — Computer mechanic near me in Doddathoguru
+- `computer-mechanic-near-me-neeladri-nagar.html` — Computer mechanic near me in Neeladri Nagar
+- `computer-mechanic-near-me-basapura.html` — Computer mechanic near me in Basapura
+- `computer-mechanic-near-me-naganathapura.html` — Computer mechanic near me in Naganathapura
+- `computer-mechanic-near-me-parappana-agrahara.html` — Computer mechanic near me in Parappana Agrahara
+- `computer-mechanic-near-me-veerasandra.html` — Computer mechanic near me in Veerasandra
+- `computer-mechanic-near-me-doddanagamangala.html` — Computer mechanic near me in Doddanagamangala
+- `computer-mechanic-near-me-chikkathoguru.html` — Computer mechanic near me in Chikkathoguru
+- `computer-mechanic-near-me-beratena-agrahara.html` — Computer mechanic near me in Beratena Agrahara
+- `computer-mechanic-near-me-kammasandra-agrahara.html` — Computer mechanic near me in Kammasandra Agrahara
+- `computer-mechanic-near-me-andapura.html` — Computer mechanic near me in Andapura
+- `computer-mechanic-near-me-wipro-limited-area.html` — Computer mechanic near me in Wipro Limited area
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.
