@@ -220,6 +220,21 @@ npm run dev
 - `laptop-and-computer-repair-near-me-kammasandra-agrahara.html` — Laptop and computer repair near me in Kammasandra Agrahara
 - `laptop-and-computer-repair-near-me-andapura.html` — Laptop and computer repair near me in Andapura
 - `laptop-and-computer-repair-near-me-wipro-limited-area.html` — Laptop and computer repair near me in Wipro Limited area
+- `laptop-pc-repair-near-me-electronic-city-phase-1.html` — Laptop pc repair near me in Electronic City Phase 1
+- `laptop-pc-repair-near-me-electronic-city-phase-2.html` — Laptop pc repair near me in Electronic City Phase 2
+- `laptop-pc-repair-near-me-konappana-agrahara.html` — Laptop pc repair near me in Konappana Agrahara
+- `laptop-pc-repair-near-me-doddathoguru.html` — Laptop pc repair near me in Doddathoguru
+- `laptop-pc-repair-near-me-neeladri-nagar.html` — Laptop pc repair near me in Neeladri Nagar
+- `laptop-pc-repair-near-me-basapura.html` — Laptop pc repair near me in Basapura
+- `laptop-pc-repair-near-me-naganathapura.html` — Laptop pc repair near me in Naganathapura
+- `laptop-pc-repair-near-me-parappana-agrahara.html` — Laptop pc repair near me in Parappana Agrahara
+- `laptop-pc-repair-near-me-veerasandra.html` — Laptop pc repair near me in Veerasandra
+- `laptop-pc-repair-near-me-doddanagamangala.html` — Laptop pc repair near me in Doddanagamangala
+- `laptop-pc-repair-near-me-chikkathoguru.html` — Laptop pc repair near me in Chikkathoguru
+- `laptop-pc-repair-near-me-beratena-agrahara.html` — Laptop pc repair near me in Beratena Agrahara
+- `laptop-pc-repair-near-me-kammasandra-agrahara.html` — Laptop pc repair near me in Kammasandra Agrahara
+- `laptop-pc-repair-near-me-andapura.html` — Laptop pc repair near me in Andapura
+- `laptop-pc-repair-near-me-wipro-limited-area.html` — Laptop pc repair near me in Wipro Limited area
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.
