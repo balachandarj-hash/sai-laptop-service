@@ -930,14 +930,22 @@ h1 {
   font-size: 0.98rem;
 }
 
-.areas-cover a {
-  color: var(--blue);
+.areas-cover a,
+.areas-cover a:visited,
+.areas-cover a:hover,
+.areas-cover a[aria-current="page"] {
+  color: #000;
   text-decoration: none;
 }
 
 .areas-cover a:hover,
 .areas-cover a[aria-current="page"] {
   text-decoration: underline;
+}
+
+.areas-cover a:active,
+.areas-cover a:focus {
+  color: var(--blue);
 }
 
 .popular-searches {
@@ -963,13 +971,16 @@ h1 {
   font-size: 0.98rem;
 }
 
-.popular-searches a {
-  color: #3d4e5c;
+.popular-searches a,
+.popular-searches a:visited,
+.popular-searches a:hover,
+.popular-searches a[aria-current="page"] {
+  color: #000;
   text-decoration: none;
 }
 
-.popular-searches a:hover,
-.popular-searches a[aria-current="page"] {
+.popular-searches a:active,
+.popular-searches a:focus {
   color: var(--blue);
 }
 
