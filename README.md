@@ -190,6 +190,21 @@ npm run dev
 - `cpu-repair-kammasandra-agrahara.html` — CPU repair in Kammasandra Agrahara
 - `cpu-repair-andapura.html` — CPU repair in Andapura
 - `cpu-repair-wipro-limited-area.html` — CPU repair in Wipro Limited area
+- `service-laptop-near-me-electronic-city-phase-1.html` — Service laptop near me in Electronic City Phase 1
+- `service-laptop-near-me-electronic-city-phase-2.html` — Service laptop near me in Electronic City Phase 2
+- `service-laptop-near-me-konappana-agrahara.html` — Service laptop near me in Konappana Agrahara
+- `service-laptop-near-me-doddathoguru.html` — Service laptop near me in Doddathoguru
+- `service-laptop-near-me-neeladri-nagar.html` — Service laptop near me in Neeladri Nagar
+- `service-laptop-near-me-basapura.html` — Service laptop near me in Basapura
+- `service-laptop-near-me-naganathapura.html` — Service laptop near me in Naganathapura
+- `service-laptop-near-me-parappana-agrahara.html` — Service laptop near me in Parappana Agrahara
+- `service-laptop-near-me-veerasandra.html` — Service laptop near me in Veerasandra
+- `service-laptop-near-me-doddanagamangala.html` — Service laptop near me in Doddanagamangala
+- `service-laptop-near-me-chikkathoguru.html` — Service laptop near me in Chikkathoguru
+- `service-laptop-near-me-beratena-agrahara.html` — Service laptop near me in Beratena Agrahara
+- `service-laptop-near-me-kammasandra-agrahara.html` — Service laptop near me in Kammasandra Agrahara
+- `service-laptop-near-me-andapura.html` — Service laptop near me in Andapura
+- `service-laptop-near-me-wipro-limited-area.html` — Service laptop near me in Wipro Limited area
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.
