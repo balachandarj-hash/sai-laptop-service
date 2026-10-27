@@ -205,6 +205,21 @@ npm run dev
 - `service-laptop-near-me-kammasandra-agrahara.html` — Service laptop near me in Kammasandra Agrahara
 - `service-laptop-near-me-andapura.html` — Service laptop near me in Andapura
 - `service-laptop-near-me-wipro-limited-area.html` — Service laptop near me in Wipro Limited area
+- `laptop-and-computer-repair-near-me-electronic-city-phase-1.html` — Laptop and computer repair near me in Electronic City Phase 1
+- `laptop-and-computer-repair-near-me-electronic-city-phase-2.html` — Laptop and computer repair near me in Electronic City Phase 2
+- `laptop-and-computer-repair-near-me-konappana-agrahara.html` — Laptop and computer repair near me in Konappana Agrahara
+- `laptop-and-computer-repair-near-me-doddathoguru.html` — Laptop and computer repair near me in Doddathoguru
+- `laptop-and-computer-repair-near-me-neeladri-nagar.html` — Laptop and computer repair near me in Neeladri Nagar
+- `laptop-and-computer-repair-near-me-basapura.html` — Laptop and computer repair near me in Basapura
+- `laptop-and-computer-repair-near-me-naganathapura.html` — Laptop and computer repair near me in Naganathapura
+- `laptop-and-computer-repair-near-me-parappana-agrahara.html` — Laptop and computer repair near me in Parappana Agrahara
+- `laptop-and-computer-repair-near-me-veerasandra.html` — Laptop and computer repair near me in Veerasandra
+- `laptop-and-computer-repair-near-me-doddanagamangala.html` — Laptop and computer repair near me in Doddanagamangala
+- `laptop-and-computer-repair-near-me-chikkathoguru.html` — Laptop and computer repair near me in Chikkathoguru
+- `laptop-and-computer-repair-near-me-beratena-agrahara.html` — Laptop and computer repair near me in Beratena Agrahara
+- `laptop-and-computer-repair-near-me-kammasandra-agrahara.html` — Laptop and computer repair near me in Kammasandra Agrahara
+- `laptop-and-computer-repair-near-me-andapura.html` — Laptop and computer repair near me in Andapura
+- `laptop-and-computer-repair-near-me-wipro-limited-area.html` — Laptop and computer repair near me in Wipro Limited area
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.
