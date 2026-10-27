@@ -933,19 +933,23 @@ h1 {
 .areas-cover a,
 .areas-cover a:visited,
 .areas-cover a:hover,
-.areas-cover a[aria-current="page"] {
+.areas-cover a:active,
+.areas-cover a:focus,
+.areas-cover a[aria-current="page"],
+.areas-cover a[aria-current="page"]:visited,
+.areas-cover a[aria-current="page"]:hover,
+.areas-cover a[aria-current="page"]:active,
+.areas-cover a[aria-current="page"]:focus {
   color: #000;
   text-decoration: none;
 }
 
-.areas-cover a:hover,
-.areas-cover a[aria-current="page"] {
-  text-decoration: underline;
-}
-
 .areas-cover a:active,
-.areas-cover a:focus {
+.areas-cover a:focus,
+.areas-cover a[aria-current="page"]:active,
+.areas-cover a[aria-current="page"]:focus {
   color: var(--blue);
+  text-decoration: none;
 }
 
 .popular-searches {
@@ -974,14 +978,23 @@ h1 {
 .popular-searches a,
 .popular-searches a:visited,
 .popular-searches a:hover,
-.popular-searches a[aria-current="page"] {
+.popular-searches a:active,
+.popular-searches a:focus,
+.popular-searches a[aria-current="page"],
+.popular-searches a[aria-current="page"]:visited,
+.popular-searches a[aria-current="page"]:hover,
+.popular-searches a[aria-current="page"]:active,
+.popular-searches a[aria-current="page"]:focus {
   color: #000;
   text-decoration: none;
 }
 
 .popular-searches a:active,
-.popular-searches a:focus {
+.popular-searches a:focus,
+.popular-searches a[aria-current="page"]:active,
+.popular-searches a[aria-current="page"]:focus {
   color: var(--blue);
+  text-decoration: none;
 }
 
 .popular-searches + .site-footer {
