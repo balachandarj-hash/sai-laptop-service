@@ -837,6 +837,38 @@ h1 {
   color: #9a3412;
 }
 
+.visit-note {
+  background: #fff;
+  color: #24323c;
+  padding: 2.6rem 0 2.2rem;
+}
+
+.visit-note h2 {
+  margin: 0 0 1.1rem;
+  text-align: center;
+  color: #10283a;
+  font-family: var(--font);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.visit-copy {
+  width: min(44rem, 100%);
+  margin-inline: auto;
+}
+
+.visit-copy p {
+  margin: 0 0 0.95rem;
+  line-height: 1.65;
+}
+
+.visit-copy a {
+  color: var(--green-2);
+  font-weight: 600;
+}
+
 .faq {
   background: var(--paper);
   color: #10283a;
