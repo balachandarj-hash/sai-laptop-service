@@ -145,6 +145,21 @@ npm run dev
 - `laptop-computer-repair-near-me-kammasandra-agrahara.html` — Laptop computer repair near me in Kammasandra Agrahara
 - `laptop-computer-repair-near-me-andapura.html` — Laptop computer repair near me in Andapura
 - `laptop-computer-repair-near-me-wipro-limited-area.html` — Laptop computer repair near me in Wipro Limited area
+- `laptop-computer-repair-electronic-city-phase-1.html` — Laptop computer repair in Electronic City Phase 1
+- `laptop-computer-repair-electronic-city-phase-2.html` — Laptop computer repair in Electronic City Phase 2
+- `laptop-computer-repair-konappana-agrahara.html` — Laptop computer repair in Konappana Agrahara
+- `laptop-computer-repair-doddathoguru.html` — Laptop computer repair in Doddathoguru
+- `laptop-computer-repair-neeladri-nagar.html` — Laptop computer repair in Neeladri Nagar
+- `laptop-computer-repair-basapura.html` — Laptop computer repair in Basapura
+- `laptop-computer-repair-naganathapura.html` — Laptop computer repair in Naganathapura
+- `laptop-computer-repair-parappana-agrahara.html` — Laptop computer repair in Parappana Agrahara
+- `laptop-computer-repair-veerasandra.html` — Laptop computer repair in Veerasandra
+- `laptop-computer-repair-doddanagamangala.html` — Laptop computer repair in Doddanagamangala
+- `laptop-computer-repair-chikkathoguru.html` — Laptop computer repair in Chikkathoguru
+- `laptop-computer-repair-beratena-agrahara.html` — Laptop computer repair in Beratena Agrahara
+- `laptop-computer-repair-kammasandra-agrahara.html` — Laptop computer repair in Kammasandra Agrahara
+- `laptop-computer-repair-andapura.html` — Laptop computer repair in Andapura
+- `laptop-computer-repair-wipro-limited-area.html` — Laptop computer repair in Wipro Limited area
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.
