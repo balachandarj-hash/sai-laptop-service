@@ -175,6 +175,21 @@ npm run dev
 - `computer-mechanic-near-me-kammasandra-agrahara.html` — Computer mechanic near me in Kammasandra Agrahara
 - `computer-mechanic-near-me-andapura.html` — Computer mechanic near me in Andapura
 - `computer-mechanic-near-me-wipro-limited-area.html` — Computer mechanic near me in Wipro Limited area
+- `cpu-repair-electronic-city-phase-1.html` — CPU repair in Electronic City Phase 1
+- `cpu-repair-electronic-city-phase-2.html` — CPU repair in Electronic City Phase 2
+- `cpu-repair-konappana-agrahara.html` — CPU repair in Konappana Agrahara
+- `cpu-repair-doddathoguru.html` — CPU repair in Doddathoguru
+- `cpu-repair-neeladri-nagar.html` — CPU repair in Neeladri Nagar
+- `cpu-repair-basapura.html` — CPU repair in Basapura
+- `cpu-repair-naganathapura.html` — CPU repair in Naganathapura
+- `cpu-repair-parappana-agrahara.html` — CPU repair in Parappana Agrahara
+- `cpu-repair-veerasandra.html` — CPU repair in Veerasandra
+- `cpu-repair-doddanagamangala.html` — CPU repair in Doddanagamangala
+- `cpu-repair-chikkathoguru.html` — CPU repair in Chikkathoguru
+- `cpu-repair-beratena-agrahara.html` — CPU repair in Beratena Agrahara
+- `cpu-repair-kammasandra-agrahara.html` — CPU repair in Kammasandra Agrahara
+- `cpu-repair-andapura.html` — CPU repair in Andapura
+- `cpu-repair-wipro-limited-area.html` — CPU repair in Wipro Limited area
 - `contact.html` — Contact
 
 Book a Service and the contact form open WhatsApp (`https://wa.me/919972447766`). Get Directions opens Google Maps for the Ganesh Complex address. There is no backend.
