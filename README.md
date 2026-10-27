@@ -21,6 +21,7 @@ npm run dev
 - `why.html` — Why Choose Us
 - `gallery.html` — Gallery
 - `blog.html` — Blog index
+- `blog-trusted-destination.html` — Sai Laptop Service: Your Trusted Destination for Laptop Repair in Electronic City, Bengaluru
 - `blog-repair-vs-replacement.html` — Laptop Repair vs Replacement: Which Is the Best Choice for You?
 - `blog-common-problems.html` — Laptop Repair Services: Common Problems and Their Solutions
 - `blog-ssd-hard-disk.html` — SSD and hard disk upgrade for a slow laptop

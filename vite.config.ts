@@ -22,6 +22,7 @@ export default defineConfig(({ command }) => ({
         blogSsd: resolve(root, "blog-ssd-hard-disk.html"),
         blogCommon: resolve(root, "blog-common-problems.html"),
         blogRepairVs: resolve(root, "blog-repair-vs-replacement.html"),
+        blogTrusted: resolve(root, "blog-trusted-destination.html"),
         contact: resolve(root, "contact.html"),
         computerRepair: resolve(root, "computer-repair.html"),
         computerTechnician: resolve(root, "computer-technician-near-me.html"),

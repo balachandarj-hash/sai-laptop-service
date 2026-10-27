@@ -1621,6 +1621,16 @@ main.page:has(> .blog-back) .prose img {
   display: block;
 }
 
+main.page:has(> .blog-back) .prose figure {
+  margin: 1.25rem 0 1.5rem;
+}
+
+main.page:has(> .blog-back) .prose figcaption {
+  margin-top: 0.45rem;
+  color: #5c6b76;
+  font-size: 0.9rem;
+}
+
 body:has(main.page > .blog-back) {
   background: #fff;
 }
