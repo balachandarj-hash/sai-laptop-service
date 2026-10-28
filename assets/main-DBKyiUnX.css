@@ -1190,7 +1190,7 @@ h1 {
   aspect-ratio: 1;
   justify-self: end;
   object-fit: cover;
-  object-position: center 30%;
+  object-position: 72% 42%;
   border-radius: 50%;
   background: #e7eef3;
 }
