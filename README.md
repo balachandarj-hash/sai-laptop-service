@@ -21,6 +21,7 @@ npm run dev
 - `why.html` — Why Choose Us
 - `gallery.html` — Gallery
 - `blog.html` — Blog index
+- `blog-common-laptop-problems.html` — Laptop Repair Service: Common Laptop Problems and How to Fix Them
 - `blog-trusted-destination.html` — Sai Laptop Service: Your Trusted Destination for Laptop Repair in Electronic City, Bengaluru
 - `blog-repair-vs-replacement.html` — Laptop Repair vs Replacement: Which Is the Best Choice for You?
 - `blog-common-problems.html` — Laptop Repair Services: Common Problems and Their Solutions
