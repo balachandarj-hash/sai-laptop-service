@@ -1143,6 +1143,70 @@ h1 {
   margin: 0;
 }
 
+.support-band {
+  background: #fff;
+  padding: 3.2rem 0;
+}
+
+.support-band-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 2.5rem 3rem;
+  align-items: center;
+}
+
+.support-copy h2 {
+  margin: 0 0 0.9rem;
+  max-width: 9.6em;
+  color: #111;
+  font-size: clamp(2.1rem, 4.2vw, 3.15rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+}
+
+.support-copy p {
+  margin: 0 0 1.45rem;
+  max-width: 34rem;
+  color: #1c1c1c;
+  font-size: 1.12rem;
+  line-height: 1.55;
+}
+
+.support-copy .btn {
+  gap: 0.55rem;
+  padding: 0.85rem 1.45rem;
+  font-size: 1.05rem;
+}
+
+.support-copy .btn svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: currentColor;
+}
+
+.support-photo {
+  width: min(100%, 22rem);
+  aspect-ratio: 1;
+  justify-self: end;
+  object-fit: cover;
+  object-position: center 30%;
+  border-radius: 50%;
+  background: #e7eef3;
+}
+
+@media (max-width: 800px) {
+  .support-band-grid {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+
+  .support-photo {
+    justify-self: center;
+    width: min(100%, 16rem);
+  }
+}
+
 .reviews {
   background: var(--paper);
   color: #222;
