@@ -24,6 +24,7 @@ export default defineConfig(({ command }) => ({
         blogRepairVs: resolve(root, "blog-repair-vs-replacement.html"),
         blogTrusted: resolve(root, "blog-trusted-destination.html"),
         blogCommonFix: resolve(root, "blog-common-laptop-problems.html"),
+        blogChoose: resolve(root, "blog-choose-repair-service.html"),
         contact: resolve(root, "contact.html"),
         computerRepair: resolve(root, "computer-repair.html"),
         computerTechnician: resolve(root, "computer-technician-near-me.html"),
