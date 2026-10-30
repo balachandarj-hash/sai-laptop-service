@@ -21,6 +21,7 @@ npm run dev
 - `why.html` — Why Choose Us
 - `gallery.html` — Gallery
 - `blog.html` — Blog index
+- `blog-laptop-not-turning-on.html` — Laptop Not Turning On? 7 Common Reasons and the Best Ways to Fix It
 - `blog-choose-repair-service.html` — How to Choose the Best Laptop and Computer Repair Service
 - `blog-common-laptop-problems.html` — Laptop Repair Service: Common Laptop Problems and How to Fix Them
 - `blog-trusted-destination.html` — Sai Laptop Service: Your Trusted Destination for Laptop Repair in Electronic City, Bengaluru
