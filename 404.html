@@ -8,10 +8,12 @@
       gtag('js', new Date());
       gtag('config', 'G-806DS066L8');
       window.addEventListener('load', function () {
-        var script = document.createElement('script');
-        script.async = true;
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-806DS066L8';
-        document.head.appendChild(script);
+        window.setTimeout(function () {
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=G-806DS066L8';
+          document.head.appendChild(script);
+        }, 5000);
       });
     </script>
     <meta charset="UTF-8" />
@@ -26,12 +28,8 @@
     />
     <meta name="theme-color" content="#063555" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" /></noscript>
-    <link rel="preload" as="image" href="images/hero-banner.webp" type="image/webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="images/hero-banner-720.webp" type="image/webp" media="(max-width: 800px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="images/hero-banner.webp" type="image/webp" media="(min-width: 801px)" fetchpriority="high" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -150,8 +148,8 @@
         }
       }
     </script>
-    <script type="module" crossorigin src="./assets/main-AskTRADS.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/main-BpVfgmmd.css">
+    <script type="module" crossorigin src="./assets/main-2Rrtxf4A.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/main-ajXcUnrb.css">
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -192,7 +190,7 @@
           </div>
         </div>
         <div class="hero-photo">
-          <img src="images/hero-banner.webp" width="1152" height="864" alt="Technician in a navy polo repairing an open laptop" fetchpriority="high" />
+          <img src="images/hero-banner-720.webp" srcset="images/hero-banner-720.webp 720w, images/hero-banner.webp 1152w" sizes="(max-width: 800px) 100vw, 46vw" width="720" height="540" alt="Technician in a navy polo repairing an open laptop" fetchpriority="high" decoding="sync" />
           <ul class="hero-services">
             <li>Screen Replacement</li>
             <li>Battery Replacement</li>
