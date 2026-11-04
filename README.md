@@ -21,6 +21,7 @@ npm run dev
 - `why.html` — Why Choose Us
 - `gallery.html` — Gallery
 - `blog.html` — Blog index
+- `blog-laptop-running-slow.html` — Laptop Running Slow? Expert Repair and Performance Solutions
 - `blog-expert-solutions.html` — Laptop Service & Repair: Common Problems and Expert Solutions
 - `blog-laptop-not-turning-on.html` — Laptop Not Turning On? 7 Common Reasons and the Best Ways to Fix It
 - `blog-choose-repair-service.html` — How to Choose the Best Laptop and Computer Repair Service
