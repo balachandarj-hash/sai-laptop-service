@@ -21,6 +21,7 @@ npm run dev
 - `why.html` — Why Choose Us
 - `gallery.html` — Gallery
 - `blog.html` — Blog index
+- `blog-choose-service-center.html` — Best Laptop Service Center – How to Choose the Right Repair Shop
 - `blog-affordable-repair.html` — Affordable Laptop Repair Service – Quality Repairs at the Best Price
 - `blog-repair-costs.html` — Laptop Repair Service: Common Problems, Repair Costs & Expert Solutions
 - `blog-expert-solutions.html` — Laptop Service & Repair: Common Problems and Expert Solutions
