@@ -1,8 +1,21 @@
+import { readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { defineConfig } from "vite";
 
 const root = fileURLToPath(new URL(".", import.meta.url));
+
+function withEveryBlog(input: Record<string, string>): Record<string, string> {
+  const seen = new Set(Object.values(input));
+  for (const file of readdirSync(root)) {
+    if (!file.startsWith("blog") || !file.endsWith(".html")) continue;
+    const full = resolve(root, file);
+    if (seen.has(full)) continue;
+    input[`page${file.replace(/[^a-zA-Z0-9]/g, "")}`] = full;
+    seen.add(full);
+  }
+  return input;
+}
 
 export default defineConfig(({ command }) => ({
   // Relative asset paths so GitHub project pages work at /<repo>/.
@@ -10,7 +23,7 @@ export default defineConfig(({ command }) => ({
   build: {
     cssMinify: false,
     rollupOptions: {
-      input: {
+      input: withEveryBlog({
         main: resolve(root, "index.html"),
         services: resolve(root, "services.html"),
         about: resolve(root, "about.html"),
@@ -253,7 +266,7 @@ export default defineConfig(({ command }) => ({
         landcKammasandra: resolve(root, "laptop-and-computer-repair-kammasandra-agrahara.html"),
         landcAndapura: resolve(root, "laptop-and-computer-repair-andapura.html"),
         landcWipro: resolve(root, "laptop-and-computer-repair-wipro-limited-area.html"),
-      },
+      }),
     },
   },
 }));

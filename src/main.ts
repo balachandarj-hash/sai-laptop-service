@@ -58,13 +58,22 @@ const blogEmpty = document.querySelector<HTMLElement>("[data-blog-empty]");
 const blogChips = [...document.querySelectorAll<HTMLButtonElement>("[data-blog-filter]")];
 
 if (blogGrid) {
-  const cards = [...blogGrid.querySelectorAll<HTMLElement>("[data-blog-card]")];
   let topic = "all";
 
+  const todayInKolkata = (): string =>
+    new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date());
+
   const applyBlogFilter = (): void => {
+    const cards = [...blogGrid.querySelectorAll<HTMLElement>("[data-blog-card]")];
+    const today = todayInKolkata();
     const query = (blogSearch?.value ?? "").trim().toLowerCase();
     let shown = 0;
     for (const card of cards) {
+      const publish = card.dataset.publish;
+      if (publish && publish > today) {
+        card.hidden = true;
+        continue;
+      }
       const topics = (card.dataset.topics ?? "").split(/\s+/);
       const haystack = (card.dataset.text ?? "").toLowerCase();
       const topicMatch = topic === "all" || topics.includes(topic);
@@ -75,6 +84,8 @@ if (blogGrid) {
     }
     if (blogEmpty) blogEmpty.hidden = shown !== 0;
   };
+
+  document.addEventListener("blog-cards-added", applyBlogFilter);
 
   for (const chip of blogChips) {
     chip.addEventListener("click", () => {

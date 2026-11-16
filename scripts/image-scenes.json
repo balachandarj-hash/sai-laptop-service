@@ -1,0 +1,362 @@
+[
+  {
+    "file": "blog-swollen-battery.webp",
+    "scene": "a laptop trackpad pushed upward by a swollen battery on a blue repair mat"
+  },
+  {
+    "file": "blog-broken-hinge.webp",
+    "scene": "a laptop hinge with a cracked plastic cover on a repair bench"
+  },
+  {
+    "file": "blog-flickering-screen.webp",
+    "scene": "a laptop screen flickering as the lid is held at an angle on a workbench"
+  },
+  {
+    "file": "blog-black-screen-sound.webp",
+    "scene": "a dark laptop screen with a small torch showing a faint desktop"
+  },
+  {
+    "file": "blog-keyboard-spill.webp",
+    "scene": "a wet laptop keyboard with a tipped glass beside it on a wooden desk"
+  },
+  {
+    "file": "blog-sticky-keys.webp",
+    "scene": "loose laptop keycaps and a small brush on a blue repair mat"
+  },
+  {
+    "file": "blog-charging-only-when-held.webp",
+    "scene": "a loose laptop charging plug held at an angle to make the light come on"
+  },
+  {
+    "file": "blog-overheating-shutdown.webp",
+    "scene": "a dusty laptop fan and heatsink removed on a repair bench"
+  },
+  {
+    "file": "blog-loud-fan.webp",
+    "scene": "an open laptop base with the cooling fan exposed on a blue mat"
+  },
+  {
+    "file": "blog-wifi-drops.webp",
+    "scene": "tiny antenna wires beside a laptop wireless card on a repair bench"
+  },
+  {
+    "file": "blog-no-sound.webp",
+    "scene": "a small laptop speaker removed beside an open laptop chassis"
+  },
+  {
+    "file": "blog-touchpad-dead.webp",
+    "scene": "a laptop touchpad cable lifted during a repair on a blue mat"
+  },
+  {
+    "file": "blog-usb-ports-dead.webp",
+    "scene": "a close view of a damaged laptop USB port with a bent metal tongue"
+  },
+  {
+    "file": "blog-hdmi-no-picture.webp",
+    "scene": "an HDMI cable plugged into the side of a laptop on a desk"
+  },
+  {
+    "file": "blog-blue-screen.webp",
+    "scene": "a laptop on a desk showing a blue error screen, no readable text"
+  },
+  {
+    "file": "blog-slow-after-update.webp",
+    "scene": "a laptop installing an update with a progress circle, no readable text"
+  },
+  {
+    "file": "blog-popup-windows.webp",
+    "scene": "a laptop screen full of warning popups, text deliberately unreadable"
+  },
+  {
+    "file": "blog-forgotten-password.webp",
+    "scene": "a laptop sign-in screen with a blank password box, no readable text"
+  },
+  {
+    "file": "blog-bitlocker-key.webp",
+    "scene": "a laptop recovery key prompt, digits blurred and unreadable"
+  },
+  {
+    "file": "blog-clicking-drive.webp",
+    "scene": "a laptop hard disk on a blue mat next to an open laptop bay"
+  },
+  {
+    "file": "blog-ssd-not-seen.webp",
+    "scene": "an M.2 SSD lifted from a laptop slot on a repair bench"
+  },
+  {
+    "file": "blog-disk-full.webp",
+    "scene": "a laptop storage warning on screen with the words out of focus"
+  },
+  {
+    "file": "blog-needs-more-memory.webp",
+    "scene": "a laptop memory module held above an open memory slot"
+  },
+  {
+    "file": "blog-battery-dies-fast.webp",
+    "scene": "a worn laptop battery beside a charger brick on a bench"
+  },
+  {
+    "file": "blog-battery-not-charging.webp",
+    "scene": "a laptop battery icon area blurred, with a charger connected on a desk"
+  },
+  {
+    "file": "blog-hot-charger.webp",
+    "scene": "a laptop charger brick and cable on a desk, no brand logos"
+  },
+  {
+    "file": "blog-wrong-charger.webp",
+    "scene": "two different laptop charger tips side by side on a bench, logos hidden"
+  },
+  {
+    "file": "blog-loose-dc-jack.webp",
+    "scene": "a loose round power jack inside an opened laptop chassis"
+  },
+  {
+    "file": "blog-cracked-screen.webp",
+    "scene": "a cracked laptop screen with a visible fracture, no brand logo"
+  },
+  {
+    "file": "blog-lines-on-screen.webp",
+    "scene": "a laptop display with vertical coloured bands, no readable text"
+  },
+  {
+    "file": "blog-dim-screen.webp",
+    "scene": "a very dim laptop screen in a bright room, content unreadable"
+  },
+  {
+    "file": "blog-touchscreen-ghost.webp",
+    "scene": "a finger above a laptop touchscreen that is opening windows on its own"
+  },
+  {
+    "file": "blog-keyboard-lights.webp",
+    "scene": "a laptop keyboard in a dark room with only a few keys faintly lit"
+  },
+  {
+    "file": "blog-missing-key.webp",
+    "scene": "a detached laptop keycap and its plastic scissor hinge on a blue mat"
+  },
+  {
+    "file": "blog-palm-clicks-pad.webp",
+    "scene": "hands typing on a laptop with palms close to the touchpad"
+  },
+  {
+    "file": "blog-speaker-crackle.webp",
+    "scene": "a tiny round laptop speaker on a blue mat"
+  },
+  {
+    "file": "blog-mic-not-heard.webp",
+    "scene": "a laptop bezel microphone hole shown in close detail"
+  },
+  {
+    "file": "blog-webcam-black.webp",
+    "scene": "a laptop webcam lens with a small privacy slider, no brand logo"
+  },
+  {
+    "file": "blog-bluetooth-drops.webp",
+    "scene": "a wireless mouse next to a laptop on a wooden desk"
+  },
+  {
+    "file": "blog-heat-on-a-bed.webp",
+    "scene": "a laptop sitting on a bed with the vents blocked by a blanket"
+  },
+  {
+    "file": "blog-monsoon-moisture.webp",
+    "scene": "a closed laptop and a damp bag on a bench after rain"
+  },
+  {
+    "file": "blog-after-power-cut.webp",
+    "scene": "a laptop and charger unplugged after a power cut, room lights dim"
+  },
+  {
+    "file": "blog-student-exam-laptop.webp",
+    "scene": "a student backpack and a closed laptop on a wooden desk"
+  },
+  {
+    "file": "blog-gaming-laptop-heat.webp",
+    "scene": "a thick gaming laptop open on a bench with the fans running"
+  },
+  {
+    "file": "blog-dock-only-fault.webp",
+    "scene": "a laptop connected to a dock and an external monitor on an office desk"
+  },
+  {
+    "file": "blog-apple-battery-service.webp",
+    "scene": "a thin metal laptop with the battery service area out of focus"
+  },
+  {
+    "file": "blog-adapter-not-recognised.webp",
+    "scene": "a laptop charger plugged in with a small warning dialog blurred"
+  },
+  {
+    "file": "blog-blinking-caps-lock.webp",
+    "scene": "a dark laptop keyboard with the caps lock light glowing"
+  },
+  {
+    "file": "blog-loose-lenovo-style-lid.webp",
+    "scene": "a laptop lid twisted slightly because one hinge has failed"
+  },
+  {
+    "file": "blog-heat-with-many-tabs.webp",
+    "scene": "a laptop with many browser tabs, the tab titles blurred"
+  },
+  {
+    "file": "blog-rattling-fan.webp",
+    "scene": "a laptop cooling fan held in a hand above a blue mat"
+  },
+  {
+    "file": "blog-bios-password.webp",
+    "scene": "a laptop firmware password box on a black screen, text unreadable"
+  },
+  {
+    "file": "blog-restarts-before-desktop.webp",
+    "scene": "a laptop stuck on a spinning startup indicator, no readable logo"
+  },
+  {
+    "file": "blog-automatic-repair-loop.webp",
+    "scene": "a laptop showing an automatic repair screen, words out of focus"
+  },
+  {
+    "file": "blog-no-boot-device.webp",
+    "scene": "a laptop firmware message about a missing boot device, text blurred"
+  },
+  {
+    "file": "blog-only-browser-slow.webp",
+    "scene": "a laptop browser window loading slowly, page text blurred"
+  },
+  {
+    "file": "blog-spreadsheet-freeze.webp",
+    "scene": "a laptop open to a spreadsheet with the cursor busy, numbers blurred"
+  },
+  {
+    "file": "blog-scanner-after-update.webp",
+    "scene": "a flatbed scanner cable next to a laptop on a desk"
+  },
+  {
+    "file": "blog-printer-offline.webp",
+    "scene": "a small office printer beside a laptop, no brand names visible"
+  },
+  {
+    "file": "blog-external-monitor-flicker.webp",
+    "scene": "a laptop connected to an external monitor that looks slightly unstable"
+  },
+  {
+    "file": "blog-sound-stays-in-laptop.webp",
+    "scene": "a laptop HDMI lead running toward a television, brands hidden"
+  },
+  {
+    "file": "blog-usb-c-screen.webp",
+    "scene": "a USB-C cable plugged into the side of a slim laptop"
+  },
+  {
+    "file": "blog-usb-c-will-not-charge.webp",
+    "scene": "a USB-C charger plugged into a slim laptop on a wooden desk"
+  },
+  {
+    "file": "blog-risen-trackpad.webp",
+    "scene": "a laptop palm rest with the trackpad slightly raised"
+  },
+  {
+    "file": "blog-missing-screw.webp",
+    "scene": "tiny laptop screws in a tray beside an open bottom cover"
+  },
+  {
+    "file": "blog-cover-will-not-clip.webp",
+    "scene": "a laptop bottom cover slightly ajar on a repair bench"
+  },
+  {
+    "file": "blog-files-before-new-disk.webp",
+    "scene": "an old laptop hard disk next to a new SSD on a blue mat"
+  },
+  {
+    "file": "blog-copy-off-clicking-disk.webp",
+    "scene": "a hard disk connected for a careful file copy on a repair bench"
+  },
+  {
+    "file": "blog-when-not-to-clone.webp",
+    "scene": "two drives side by side ready for a copy, on a blue mat"
+  },
+  {
+    "file": "blog-clean-windows-what-you-lose.webp",
+    "scene": "a laptop on a Windows setup screen, all text blurred"
+  },
+  {
+    "file": "blog-no-wifi-after-install.webp",
+    "scene": "a laptop network list that is empty, text unreadable"
+  },
+  {
+    "file": "blog-activation-after-board.webp",
+    "scene": "a Windows activation watermark area, text deliberately blurred"
+  },
+  {
+    "file": "blog-forgets-the-time.webp",
+    "scene": "a small coin cell battery next to an opened laptop"
+  },
+  {
+    "file": "blog-keyboard-or-clean.webp",
+    "scene": "a laptop keyboard half lifted from the palm rest"
+  },
+  {
+    "file": "blog-tea-in-keyboard.webp",
+    "scene": "a small spill of tea across a laptop keyboard"
+  },
+  {
+    "file": "blog-screen-cable-not-panel.webp",
+    "scene": "a thin laptop display cable running through a hinge"
+  },
+  {
+    "file": "blog-loose-bezel.webp",
+    "scene": "a laptop screen bezel pulled slightly away from the glass"
+  },
+  {
+    "file": "blog-broken-hinge-plastic.webp",
+    "scene": "cracked plastic around a laptop hinge, pieces on a blue mat"
+  },
+  {
+    "file": "blog-percentage-jumps.webp",
+    "scene": "a laptop battery percentage that looks inconsistent, digits blurred"
+  },
+  {
+    "file": "blog-charge-to-eighty.webp",
+    "scene": "a laptop charging on a desk, screen content out of focus"
+  },
+  {
+    "file": "blog-plugged-in-overnight.webp",
+    "scene": "a laptop charging overnight on a hard desk, brick uncovered"
+  },
+  {
+    "file": "blog-hot-laptop-in-bag.webp",
+    "scene": "a closed laptop being placed into a padded bag"
+  },
+  {
+    "file": "blog-after-travel.webp",
+    "scene": "a closed laptop in a travel sleeve on a bench"
+  },
+  {
+    "file": "blog-what-a-quote-names.webp",
+    "scene": "a notebook and pencil beside an open laptop on a wooden counter"
+  },
+  {
+    "file": "blog-what-to-bring.webp",
+    "scene": "a laptop and its charger brick placed together on a counter"
+  },
+  {
+    "file": "blog-same-day-limits.webp",
+    "scene": "a repair bench with a few laptop parts laid out, not a stockroom"
+  },
+  {
+    "file": "blog-six-parts-on-the-board.webp",
+    "scene": "a simple repair shop board area with laptop parts, no readable brand text"
+  },
+  {
+    "file": "blog-second-fault.webp",
+    "scene": "an open laptop on a bench with two separate parts set to the side"
+  },
+  {
+    "file": "blog-one-speaker-silent.webp",
+    "scene": "one small laptop speaker beside an open chassis on a blue mat"
+  },
+  {
+    "file": "blog-collect-the-same-laptop.webp",
+    "scene": "a closed laptop being handed across a wooden shop counter"
+  }
+]
