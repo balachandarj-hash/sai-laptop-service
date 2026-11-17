@@ -2,12 +2,24 @@ name: Publish the day's blog
 
 on:
   schedule:
-    # 07:00 in Asia/Kolkata
+    # 07:00 in Asia/Kolkata (01:30 UTC)
     - cron: "30 1 * * *"
   workflow_dispatch:
+  # Keep the schedule active after the first source push that lands this file.
+  push:
+    branches: [cursor/sai-laptop-site-f2f4]
+    paths:
+      - "public/scheduled-blogs.json"
+      - "scripts/publish-due-blogs.mjs"
+      - ".github/workflows/daily-blog.yml"
 
 permissions:
   contents: write
+  pages: write
+
+concurrency:
+  group: daily-blog-publish
+  cancel-in-progress: false
 
 jobs:
   publish:
@@ -17,6 +29,7 @@ jobs:
         with:
           ref: cursor/sai-laptop-site-f2f4
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -48,6 +61,7 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./dist
           cname: sailaptopservice.in
+          force_orphan: false
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
           commit_message: "Publish today's laptop repair article."
