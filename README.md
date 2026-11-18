@@ -21,6 +21,7 @@ npm run dev
 - `why.html` — Why Choose Us
 - `gallery.html` — Gallery
 - `blog.html` — Blog index
+- `blog-broken-hinge.html` — A Laptop Hinge That Will Not Hold the Screen
 - `blog-swollen-battery.html` — A Swollen Laptop Battery: What to Do Before the Lid Is Forced Shut
 - `blog-laptop-running-slow.html` — Laptop Running Slow? Expert Repair and Performance Solutions
 - `blog-expert-solutions.html` — Laptop Service & Repair: Common Problems and Expert Solutions
