@@ -21,6 +21,7 @@ npm run dev
 - `why.html` — Why Choose Us
 - `gallery.html` — Gallery
 - `blog.html` — Blog index
+- `blog-keyboard-spill.html` — Water on a Laptop Keyboard: The First Hour
 - `blog-black-screen-sound.html` — Sound, a Fan, and a Black Laptop Screen
 - `blog-flickering-screen.html` — A Laptop Screen That Flickers When the Lid Moves
 - `blog-broken-hinge.html` — A Laptop Hinge That Will Not Hold the Screen
