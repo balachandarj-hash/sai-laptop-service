@@ -21,6 +21,7 @@ npm run dev
 - `why.html` — Why Choose Us
 - `gallery.html` — Gallery
 - `blog.html` — Blog index
+- `blog-wifi-drops.html` — Laptop Wi-Fi That Drops in the Same Room
 - `blog-loud-fan.html` — A Laptop Fan That Never Goes Quiet
 - `blog-overheating-shutdown.html` — A Laptop That Switches Off When It Gets Hot
 - `blog-charging-only-when-held.html` — A Laptop That Charges Only When the Plug Is Held
