@@ -21,6 +21,7 @@ npm run dev
 - `why.html` — Why Choose Us
 - `gallery.html` — Gallery
 - `blog.html` — Blog index
+- `blog-touchpad-dead.html` — A Touchpad That Clicks but Will Not Move the Pointer
 - `blog-no-sound.html` — A Laptop With No Sound From the Speakers
 - `blog-wifi-drops.html` — Laptop Wi-Fi That Drops in the Same Room
 - `blog-loud-fan.html` — A Laptop Fan That Never Goes Quiet
